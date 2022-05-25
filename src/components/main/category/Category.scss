@@ -1,0 +1,20 @@
+.category {
+  list-style-type: none;
+
+  &__item {
+    margin-right: 69px;
+  }
+
+  &__btn {
+    background: none;
+    border: none;
+    font-family: 'Steinbeck';
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff99;
+  }
+
+  &__activ {
+    color: #c9ac8c;
+  }
+}

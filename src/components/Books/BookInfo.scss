@@ -1,0 +1,131 @@
+.bookinfo {
+  width: 100%;
+  padding-top: 58px;
+
+  &__main {
+
+  }
+
+  &__imgbox {
+    width: 40%;
+    width: 519px;
+    height: 810px;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+
+  &__img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  &__rightbox {
+    width: 55%;
+  }
+
+  &__title {
+    font-family: 'Rotterburg Stylish FREE';
+    font-size: 48px;
+    line-height: 53px;
+    color:#c9ac8c;
+    margin-bottom: 14px;
+  }
+
+  &__avtor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+
+  &__pad {
+    position: relative;
+    top: 1px;
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #c9ac8c;
+    transition: all 0.4s linear;
+    margin-right: 10px;
+
+    &:hover {
+      color: #dda66b;
+    }
+  }
+
+  &__info {
+    font-family: 'Steinbeck';
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff99;
+    margin-bottom: 20px;
+  }
+
+  &__span {
+    font-family: 'Steinbeck';
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  &__descbox {
+    margin-bottom: 25px;
+  }
+
+  &__descbtn {
+    background:none;
+    border: none;
+    font-family: 'Steinbeck';
+    font-size: 16px;
+    line-height: 16px;
+    color: #c9ac8c;
+  }
+
+  &__desc {
+    font-family: 'Steinbeck';
+    font-size: 16px;
+    line-height: 144.4%;
+    color: #ffffffcc;
+    padding-top: 25px;
+  }
+
+  &__format {
+    font-family: 'Steinbeck';
+    font-size: 16px;
+    line-height: 16px;
+    color: #c9ac8c;
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item {
+    color: #fff;
+  }
+
+  &__icon {
+    font-size: 22px;
+    margin-right: 5px;
+  }
+
+  &__btn {
+    background-color: #c9ac8c;
+    border: none;
+    font-family: 'Steinbeck';
+    font-size: 16px;
+    line-height: 16px;
+    color: #3c2710;
+    padding: 16px 32px;
+    transition: all 0.4s linear;
+
+    &:hover {
+      background-color: #dda66b;
+    }
+  }
+}

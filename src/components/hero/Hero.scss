@@ -1,0 +1,75 @@
+.hero {
+  padding-top: 54px;
+
+  &__main {
+    position: relative;
+  }
+
+  &__box {
+    display: flex;
+    border-radius: 21px;
+  }
+  &__img {
+    width: 1290px;
+    border-radius: 21px;
+    height: 380px;
+  }
+  &__title {
+    position: absolute;
+    padding-left: 86px;
+    padding-top: 40px;
+    top: 0;
+    font-family: 'Rotterburg Stylish FREE';
+    font-size: 50px;
+    line-height: 67px;
+    letter-spacing: 0.4px;
+    color: #c9ac8c;
+    width: 337px;
+  }
+  &__btns {
+    position: absolute;
+    padding-left: 84px;
+    top: 75%;
+    z-index: 100;
+  }
+
+  &__btn {
+    width: 57.39px;
+    height: 5px;
+    background-color: #ffffff99;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+  &__activ {
+    background-color: #fff;
+  }
+}
+
+.to-firstSlide {
+  transform: translateX(0) !important;
+  transition: all 0.4s linear;
+}
+
+.to-secondSlide {
+  transform: translateX(-1290px) !important;
+  transition: all 0.4s linear;
+}
+
+.to-thirdSlide {
+  transform: translateX(-2580px) !important;
+  transition: all 0.4s linear;
+}
+.to-fourSlide {
+  transform: translateX(-3870px) !important;
+  transition: all 0.4s linear;
+}
+
+.active2 {
+  box-shadow: #354b4f 0px 1px 1px, #354b4f 0px 0px 0px 1px;
+  background-color: #192527;
+}
+.heros {
+  overflow-x: hidden;
+}

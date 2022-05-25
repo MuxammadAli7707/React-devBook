@@ -1,0 +1,50 @@
+.search {
+  width: 1114px;
+  background-color: #191919;
+  box-shadow: 0px 4px 77px #00000040;
+  border-radius: 15px;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  text-align: center;
+  transform: translateY(-50px);
+
+  &__title {
+    font-family: 'Rotterburg Stylish FREE';
+    font-size: 31px;
+    line-height: 34px;
+    color: #c9ac8c;
+    margin-bottom: 13px;
+  }
+
+  &__input {
+    width: 709px;
+    background-color: #404040;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Steinbeck';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff4d;
+    padding: 16px 28px;
+    margin-right: 10px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__btn {
+    background-color: #c9ac8c;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Steinbeck';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3c2710;
+    padding: 11px 37px;
+  }
+
+}

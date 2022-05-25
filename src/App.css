@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Rotterburg Stylish FREE';
+  src: url('/src/assets/fonts/rotterburg/RotterburgStylishRegular.woff2') format('woff2'),
+      url('/src/assets/fonts/rotterburg/RotterburgStylishRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Steinbeck';
+  src: url('/src/assets/fonts/steinbeck/steinbeck.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('../src/assets/fonts/VisueltPro/VisueltPro-Regular.woff2') format('woff2'),
+      url('../src/assets/fonts/VisueltPro/VisueltPro-Regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conatiner {
+  width: 1310px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #191919;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}

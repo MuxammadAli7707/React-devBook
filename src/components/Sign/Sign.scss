@@ -1,0 +1,121 @@
+.sign {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+
+  &__main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+
+  &__imgbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #c9ac8ced;
+  }
+
+  &__img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  &__rightbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #fff;
+  }
+
+  &__box {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+
+  &__title {
+    font-family: 'Arial Black';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 51px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+
+  &__desc {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 15px;
+    color: #000;
+    margin-bottom: 21px;
+  }
+
+  &__link {
+    color: #618bfd;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.4s linear;
+
+    &:hover {
+      color: #4271f5;
+    }
+  }
+
+  &__label {
+    display: block;
+    margin-bottom: 16px;
+  }
+  &__input {
+    display: inline-block;
+    width: 450px;
+    padding: 16px 0px 10px 29px;
+    margin-bottom: 16px;
+    background: #FFFFFF;
+    border: 1px solid #B4B4BB;
+    color: #B4B4BB;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  &__input:focus {
+    outline-color: #152540;
+  }
+
+  &__btn {
+    background: #152540;
+    border: 1px solid #152540;
+    border-radius: 99px;
+    border: none;
+    padding: 9px 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+    width: 450px;
+    margin-top: 26px;
+    display: inline-block;
+    transition: all 0.5s ease;
+  }
+  &__btn:hover {
+    background-color: #fff;
+    color: #152540;
+    border: 1px solid #152540;
+    transition: all 0.5s ease;
+  }
+}
+.bx-home {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  font-size: 30px;
+}
+
