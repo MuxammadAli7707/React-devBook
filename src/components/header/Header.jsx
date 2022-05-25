@@ -2,7 +2,7 @@ import React from "react";
 import './Header.scss'
 import havatar from '../../assets/images/header-avatar.jpg'
 import { Link, NavLink } from "react-router-dom";
-const navbar = ["Bosh sahifa", "Kitoblar", "Nazm", "Maqolalar", "Forum"];
+const navbar = ["Bosh sahifa", "Nasr", "Nazm", "Maqolalar", "Forum"];
 
 
 function Header() {

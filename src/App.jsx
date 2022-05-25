@@ -24,7 +24,7 @@ function App() {
         <Route path="Users/:id" element= {<Users/>}/>
         <Route path="/signin" element= {<SignIn />}/>
         <Route path="/signup" element= {<SignUp />}/>
-        <Route path="/kitoblar" element= {<Books />}/>
+        <Route path="/nasr" element= {<Books />}/>
       </Routes>
     </>
   );
