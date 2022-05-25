@@ -1,7 +1,5 @@
 import React from "react";
-//scss
 import './Card.scss'
-//images
 import {Link} from "react-router-dom";
 
 
@@ -10,7 +8,7 @@ export default function Card(props) {
     <ul className="cards d-flex">
       {
         props.newObj.map((item, key) => {
-          if(key < 12) {
+          if(key < 60) {
             return(
             <Link className="cards__link" key={key+65} to={`Users/${item.id}`}>
               <li className="cards__item">

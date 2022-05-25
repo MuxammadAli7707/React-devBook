@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-//scss
 import '../main/Main.scss'
 import Search from "../main/search/Search";
 import obj from '../../Books/Books.js'

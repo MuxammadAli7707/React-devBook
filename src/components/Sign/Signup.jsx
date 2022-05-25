@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './Sign.scss'
 import signup from '../../assets/images/signup.svg'
+import databaza from "../UserInfo/databaza";
 
 export default function SignUp() {
 
   let inputHandler = (e) => {
     console.log(e)
   }
-
   return(
     <section className="sign">
       <div>
@@ -23,21 +23,21 @@ export default function SignUp() {
               <p className="sign__desc">Already have an account? <Link className="sign__link" to="/signin">Sign in</Link> </p>
               <form action="">
                 <label className="sign__label" htmlFor="fristname">
-                  <input id="fristname" onChange={inputHandler} className="sign__input" type="text" placeholder="First Name"/>
+                  <input id="fristname" className="sign__input" type="text" placeholder="First Name"/>
                 </label>
                 <label className="sign__label" htmlFor="lastname">
-                  <input id="lastname" onChange={inputHandler} className="sign__input" type="text" placeholder="Last name"/>
+                  <input id="lastname" className="sign__input" type="text" placeholder="Last name"/>
                 </label>
                 <label className="sign__label" htmlFor="upphone">
-                  <input id="upphone" onChange={inputHandler} className="sign__input" type="text" placeholder="Phone" />
+                  <input id="upphone" className="sign__input" type="text" placeholder="Phone" />
                 </label>
                 <label className="sign__label" htmlFor="upmail">
-                  <input id="upmail" onChange={inputHandler} className="sign__input" type="text" placeholder="Email" />
+                  <input id="upmail" className="sign__input" type="text" placeholder="Email" />
                 </label>
                 <label className="sign__label" htmlFor="uppass">
-                  <input id="uppass" onChange={inputHandler} className="sign__input" type="text" placeholder="Password"/>
+                  <input id="uppass" className="sign__input" type="text" placeholder="Password"/>
                 </label>
-                <button className="sign__btn">Next step</button>
+                <Link to="/users" className="sign__btn">Next step</Link>
               </form>
             </div>
           </div>

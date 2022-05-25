@@ -1,4 +1,4 @@
-let books = [
+const books = [
   {
     id : "1",
     name : "Allan",
@@ -18,7 +18,7 @@ let books = [
     location : "Melbourne, Victoria, Australia",
     bookObj : [
       {
-        bookId : "b1",
+        bookId : "1",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/664dd858db942cad06f24ff25df567162022042720281594396HWiEJBfmvs.jpg.webp",
         bookName : "Bir varaqli marketing reja",
         bookRating : 4.1,
@@ -56,7 +56,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-        bookId : "b2",
+        bookId : "2",
         bookImg : "https://m.media-amazon.com/images/I/51lnCQrRLyL.jpg",
         bookName : "El Plan de Marketing de 1-Página",
         bookRating : 5.5,
@@ -89,8 +89,8 @@ let books = [
         electron : "pdf, epub"
       },
       {
-        bookId : "b3",
-        bookImg : "https://m.media-amazon.com/images/I/51lnCQrRLyL._SY346_.jpg",
+        bookId : "3",
+        bookImg : "https://imgur.com/AJ3NriS.png",
         bookName : "Votre plan marketing en 1 page:",
         bookRating : 5.5,
         bookGenre : "biznes",
@@ -122,7 +122,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-        bookId : "b4",
+        bookId : "4",
         bookImg : "https://m.media-amazon.com/images/I/51b1SKwrM0L.jpg",
         bookName : "“Il Marketing Plan vincente",
         bookRating : 3.9,
@@ -164,7 +164,7 @@ let books = [
     location : "Melbourne, Victoria, Australia",
     bookObj : [
       {
-        bookId : "b5",
+        bookId : "1",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/621fbd17da27241c58015eabe4164a522022042721305642246eQJCATLbnw.jpg.webp",
         bookName : "Diqqat: Chalg‘ituvchi dunyoda muvaffaqiyat sirlari",
         bookRating : 4.1,
@@ -190,7 +190,7 @@ let books = [
       },
 
       {
-        bookId : "b6",
+        bookId : "2",
         bookImg : "https://cdn1.ozone.ru/multimedia/wc1200/1016798069.jpg",
         bookName : "Bu mahsulot zaxirada yo‘q",
         bookRating : 4.1,
@@ -212,8 +212,8 @@ let books = [
       },
 
       {
-        bookId : "b7",
-        bookImg : "https://m.media-amazon.com/images/I/51lnCQrRLyL._SY346_.jpg",
+        bookId : "3",
+        bookImg : "https://imgur.com/AJ3NriS.png",
         bookName : "Digital Minimalism",
         bookRating : 5.5,
         bookGenre : "biznes",
@@ -235,7 +235,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-        bookId : "b8",
+        bookId : "4",
         bookImg : "https://imgur.com/08kjeAJpg",
         bookName : "How to Become a Straight-A Student",
         bookRating : 3.9,
@@ -287,7 +287,7 @@ let books = [
     location : "Bridgeport, Connecticut, USA",
     bookObj : [
       {
-        bookId : "b9",
+        bookId : "1",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/ec47a5de1ebd60f559fee4afd739d59b2022031115422626431DicnyEB51t.jpg.webp",
         bookName : "Baxt yetkazish. Milliard dollarlik internet do‘kon tarixi",
         bookRating : 4.1,
@@ -310,7 +310,7 @@ let books = [
       },
 
       {
-        bookId : "b10",
+        bookId : "2",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15bbfac4092.jpg.webp",
         bookName : "Delivering happiness",
         bookRating : 3,
@@ -334,7 +334,7 @@ let books = [
       },
 
       {
-        bookId : "b11",
+        bookId : "3",
         bookImg : "https://m.media-amazon.com/images/P/B07ZHMQVPX.01._SCLZZZZZZZ_SX500_.jpg",
         bookName : "The Power of WOW",
         bookRating : 5.5,
@@ -378,7 +378,7 @@ let books = [
     location : "Ithaca, New York, USA",
     bookObj : [
       {
-        bookId : "b12",
+        bookId : "1",
         bookImg : "",
         bookName : "SOS! Savol ortidagi savol",
         bookRating : 4.1,
@@ -400,7 +400,7 @@ let books = [
       },
 
       {
-        bookId : "b13",
+        bookId : "2",
         bookImg : "https://m.media-amazon.com/images/P/0399152334.01._SCLZZZZZZZ_SX500_.jpg",
         bookName : "QBQ! The Question Behind the Question",
         bookRating : 4.1,
@@ -422,7 +422,7 @@ let books = [
       },
 
       {
-        bookId : "b14",
+        bookId : "3",
         bookImg : "https://images-na.ssl-images-amazon.com/images/I/41ap-0WZ6FL._SX331_BO1,204,203,200_.jpg",
         bookName : "Outstanding!",
         bookRating : 5.5,
@@ -445,7 +445,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-        bookId : "b15",
+        bookId : "4",
         bookImg : "https://m.media-amazon.com/images/I/51+rP8gEtOL.jpg",
         bookName : "Flipping the Switch.",
         bookRating : 3.9,
@@ -489,7 +489,7 @@ let books = [
     location : "New Orleans, Louisiana, U.S.A",
     bookObj : [
       {
-        bookId : "b16",
+        bookId : "1",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/62afaf4f661699d406da07f417694ab02020090113252448908XTd2lc78nx.jpg.webp",
         bookName : "Stiv Jobs",
         bookRating : 4.0,
@@ -512,7 +512,7 @@ let books = [
       },
 
       {
-        bookId : "b17",
+        bookId : "2",
         bookImg : "https://images-na.ssl-images-amazon.com/images/I/41ebrOdwO3L._SX327_BO1,204,203,200_.jpg",
         bookName : "The Code Breaker",
         bookRating : 5.6,
@@ -534,7 +534,7 @@ let books = [
       },
 
       {
-        bookId : "b18",
+        bookId : "3",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/6a29abdb708700ba95723d29fd9230712021030517571876237cFrOSsF5ry.jpg.webp",
         bookName : "Leonardo Da Vinci",
         bookRating : 5.5,
@@ -555,7 +555,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-        bookId : "b19",
+        bookId : "4",
         bookImg : "https://images-na.ssl-images-amazon.com/images/I/51ZVtaiqUVL._SX328_BO1,204,203,200_.jpg",
         bookName : "Benjamin Franklin",
         bookRating : 3.9,
@@ -596,7 +596,7 @@ let books = [
     location : "Москва, Россия",
     bookObj : [
       {
-        bookId : "b20",
+        bookId : "1",
         bookImg : "https://assets.asaxiy.uz/product/main_image/desktop//605f3f06dc83c.png.webp",
         bookName : "Million dollarlik xatolar",
         bookRating : 4.1,
@@ -618,7 +618,7 @@ let books = [
       },
 
       {
-        bookId : "b21",
+        bookId : "2",
         bookImg : "https://avatars.mds.yandex.net/get-mpic/1539743/img_id3377776038642248420.jpeg/orig",
         bookName : "Literary memories",
         bookRating : 4.1,
@@ -640,7 +640,7 @@ let books = [
       },
 
       {
-        bookId : "b22",
+        bookId : "3",
         bookImg : "https://cdn1.ozone.ru/s3/multimedia-s/wc1200/6016894360.jpg",
         bookName : "Life and works of Pushkin",
         bookRating : 5.5,
@@ -662,7 +662,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-        bookId : "b23",
+        bookId : "4",
         bookImg : "https://cdn1.ozone.ru/multimedia/wc1200/1000082198.jpg",
         bookName : "Paris letters",
         bookRating : 3.9,
@@ -705,7 +705,7 @@ let books = [
     location : "Hampshire, United Kingdom, Kanada",
     bookObj : [
       {
-        bookId : "b24",
+        bookId : "1",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/8643c8e2107ba86c47371e037059c4b72022042721314581215ZQqQTOB55O.jpg.webp",
         bookName : "Zukkolar va landavurlar",
         bookRating : 5,
@@ -733,7 +733,7 @@ let books = [
       },
 
       {
-        bookId : "b25",
+        bookId : "2",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5fef3eff51dc719c4a9f565a742d78f220220510202924330048jQot1rYXY.jpg.webp",
         bookName : "Geniuses and outsiders. Why is everything for some and nothing for others?",
         bookRating : 4.1,
@@ -756,7 +756,7 @@ let books = [
       },
 
       {
-        bookId : "b26",
+        bookId : "3",
         bookImg : "https://cdn1.ozone.ru/s3/multimedia-c/wc1200/6071494248.jpg",
         bookName : "Crucial moment",
         bookRating : 5.5,
@@ -777,7 +777,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-        bookId : "b27",
+        bookId : "4",
         bookImg : "https://cdn1.ozone.ru/multimedia/wc1200/1010248129.jpg",
         bookName : "Insight",
         bookRating : 3.9,
@@ -818,7 +818,7 @@ let books = [
     location : "Springwells Township, Michigan, U.S.A",
     bookObj : [
       {
-        bookId : "b28",
+        bookId : "1",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/01083da2df15d6ebfe62186418a768632020110619522239966wtsBWUg1qj.jpg.webp",
         bookName : "Mening hayotim",
         bookRating : 4.1,
@@ -840,7 +840,7 @@ let books = [
       },
 
       {
-        bookId : "b29",
+        bookId : "2",
         bookImg : "https://15.img.avito.st/640x480/12711110315.jpg",
         bookName : "International Jewry",
         bookRating : 4.1,
@@ -862,7 +862,7 @@ let books = [
       },
 
       {
-        bookId : "b30",
+        bookId : "3",
         bookImg : "https://images-na.ssl-images-amazon.com/images/I/51LmBqSifzL._SX311_BO1,204,203,200_.jpg",
         bookName : "Quotations of Henry Ford",
         bookRating : 5.5,
@@ -883,7 +883,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-        bookId : "b31",
+        bookId : "4",
         bookImg : "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347999186i/7895604.jpg",
         bookName : "The case against the little white slave",
         bookRating : 3.9,
@@ -925,7 +925,7 @@ let books = [
     location: "USA, Washington",
     bookObj: [
       {
-        bookId: "b32",
+        bookId: "1",
         bookImg: "https://cdn1.ozone.ru/multimedia/wc1200/1014571733.jpg",
         bookName: "Liderstva",
         bookRating: 4.3,
@@ -942,7 +942,7 @@ let books = [
         electron: "pdf, bepub",
       },
       {
-        bookId: "b33",
+        bookId: "2",
         bookImg: "https://cdn1.ozone.ru/multimedia/c360/1037901521.jpg",
         bookName: "Zakon",
         bookRating: 4.5,
@@ -962,7 +962,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b34",
+        bookId: "3",
         bookImg: "https://cdn1.ozone.ru/multimedia/wc1200/1032390560.jpg",
         bookName: "Kak Obrashatsya s Lyudmi",
         bookRating: 3.7,
@@ -979,7 +979,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b35",
+        bookId: "4",
         bookImg: "https://cdn1.ozone.ru/multimedia/wc1200/1011666082.jpg",
         bookName: "Uchites u Velikix",
         bookRating: 3.9,
@@ -1016,7 +1016,7 @@ let books = [
     location: "USA, New York",
     bookObj: [
       {
-        bookId: "b36",
+        bookId: "1",
         bookImg: "https://kniga.biz.ua/images/goods/big/4157.jpg",
         bookName: "Viydi Iz zoni Komforta",
         bookRating: 4,
@@ -1033,7 +1033,7 @@ let books = [
         electron: "pdf, bepub",
       },
       {
-        bookId: "b37",
+        bookId: "2",
         bookImg: "https://kniga.biz.ua/images/goods/big/1211.jpg",
         bookName: "Dastijenie Maksimuma",
         bookRating: 4.6,
@@ -1050,7 +1050,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b38",
+        bookId: "3",
         bookImg: "https://kniga.biz.ua/images/goods/big/5881.jpg",
         bookName: "Zrobite Zaraz",
         bookRating: 3.9,
@@ -1067,7 +1067,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b39",
+        bookId: "4",
         bookImg: "https://kniga.biz.ua/images/goods/big/5504.jpg",
         bookName: "Kak upravlyayut Luchsie",
         bookRating: 4.4,
@@ -1104,7 +1104,7 @@ let books = [
     location: "India, Dehli",
     bookObj: [
       {
-        bookId: "b40",
+        bookId: "1",
         bookImg: "https://cdn1.ozone.ru/multimedia/c360/1009455070.jpg",
         bookName: "Intelligent Bussiness",
         bookRating: 4.5,
@@ -1126,7 +1126,7 @@ let books = [
         electron: "pdf, bepub",
       },
       {
-        bookId: "b41",
+        bookId: "2",
         bookImg: "https://cdn1.ozone.ru/multimedia/wc1200/1008841723.jpg",
         bookName: "LifeStyle",
         bookRating: 4.3,
@@ -1145,7 +1145,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b42",
+        bookId: "3",
         bookImg: "https://kniga.biz.ua/images/goods/big/5881.jpg",
         bookName: "Zrobite Zaraz",
         bookRating: 3.9,
@@ -1162,7 +1162,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b43",
+        bookId: "4",
         bookImg: "https://cdn1.ozone.ru/multimedia/wc1200/1032390560.jpg",
         bookName: "Kontakt",
         bookRating: 4.7,
@@ -1202,7 +1202,7 @@ let books = [
     location: "USA California",
     bookObj: [
       {
-        bookId: "b44",
+        bookId: "1",
         bookImg:
           "https://s1.livelib.ru/boocover/1001429108/200x305/b0bf/boocover.jpg",
         bookName: "Sam Sebe MBA",
@@ -1220,7 +1220,7 @@ let books = [
         electron: "pdf, bepub",
       },
       {
-        bookId: "b45",
+        bookId: "2",
         bookImg:
           "https://s1.livelib.ru/boocover/1002965105/200x305/9d8e/boocover.jpg",
         bookName: "Kak nauchitsya chemu ugodno",
@@ -1238,7 +1238,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b46",
+        bookId: "3",
         bookImg:
           "https://s1.livelib.ru/boocover/1004565895/200x305/8876/boocover.jpg",
         bookName: "How to Fight a Hydra",
@@ -1256,7 +1256,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b47",
+        bookId: "4",
         bookImg:
           "https://s1.livelib.ru/boocover/1006844263/200x305/e2b6/boocover.jpg",
         bookName: "Vot ono Schastye",
@@ -1294,7 +1294,7 @@ let books = [
     location: "USA New Jercy",
     bookObj: [
       {
-        bookId: "b48",
+        bookId: "1",
         bookImg:
           "https://assets.asaxiy.uz/product/items/desktop/5e15c26930ab2.jpg.webp",
         bookName: "Strategiya Jizni",
@@ -1312,7 +1312,7 @@ let books = [
         electron: "pdf, bepub",
       },
       {
-        bookId: "b49",
+        bookId: "2",
         bookImg:
           "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/31b681157c4c1a5551b0db4896e7972f/c/o/cover_1_1_145.jpg",
         bookName: "Diplom Innovatora",
@@ -1330,7 +1330,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b50",
+        bookId: "3",
         bookImg:
           "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/31b681157c4c1a5551b0db4896e7972f/5/7/577884_front_1.png",
         bookName: "Kak uluchshit svoy Biznes",
@@ -1348,7 +1348,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b51",
+        bookId: "4",
         bookImg:
           "https://img.yakaboo.ua/media/catalog/product/cache/1/image/546x/c239772940bfb0468bd568cd18249fe5/4/4/444962",
         bookName: "Life Swap",
@@ -1386,7 +1386,7 @@ let books = [
     location: "USA New York",
     bookObj: [
       {
-        bookId: "b52",
+        bookId: "1",
         bookImg: "https://cdn1.ozone.ru/s3/multimedia-2/wc1200/6223999346.jpg",
         bookName: "Kak Rabotat 4 chasa v nedelyu",
         bookRating: 4.1,
@@ -1406,7 +1406,7 @@ let books = [
         electron: "pdf, bepub",
       },
       {
-        bookId: "b53",
+        bookId: "2",
         bookImg: "https://cdn1.ozone.ru/s3/multimedia-0/wc1200/6122006088.jpg",
         bookName: "Instrumenti gigantov",
         bookRating: 3.6,
@@ -1425,7 +1425,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b54",
+        bookId: "3",
         bookImg: "https://cdn1.ozone.ru/s3/multimedia-8/wc1200/6090457172.jpg",
         bookName: "Vixodnie vsyu nedelyu",
         bookRating: 4,
@@ -1442,7 +1442,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b55",
+        bookId: "4",
         bookImg: "https://cdn1.ozone.ru/s3/multimedia-t/wc1200/6230015693.jpg",
         bookName: "7 Navikov",
         bookRating: 34.4,
@@ -1479,7 +1479,7 @@ let books = [
     location: "USA New York",
     bookObj: [
       {
-        bookId: "b56",
+        bookId: "1",
         bookImg: "https://cdn1.ozone.ru/multimedia/wc1200/1005803129.jpg",
         bookName: "Fioletovaya KArova",
         bookRating: 4.5,
@@ -1497,7 +1497,7 @@ let books = [
         electron: "pdf, bepub",
       },
       {
-        bookId: "b57",
+        bookId: "2",
         bookImg: "https://cdn1.ozone.ru/s3/multimedia-w/wc1200/6280672484.jpg",
         bookName: "Sila vnutri sebya",
         bookRating: 4.8,
@@ -1514,7 +1514,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b58",
+        bookId: "3",
         bookImg: "https://cdn1.ozone.ru/s3/multimedia-1/wc1200/6084701917.jpg",
         bookName: "Karlos Kastaneda",
         bookRating: 4.3,
@@ -1531,7 +1531,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b59",
+        bookId: "4",
         bookImg: "https://cdn1.ozone.ru/s3/multimedia-3/wc1200/6087297879.jpg",
         bookName: "German Gesse",
         bookRating: 3.9,
@@ -1569,7 +1569,7 @@ let books = [
     location: "Canada",
     bookObj: [
       {
-        bookId: "b60",
+        bookId: "1",
         bookImg: "https://cdn1.ozone.ru/multimedia/wc1200/1023483299.jpg",
         bookName: "Maliy Biznes",
         bookRating: 4.2,
@@ -1587,7 +1587,7 @@ let books = [
         electron: "pdf, bepub",
       },
       {
-        bookId: "b61",
+        bookId: "2",
         bookImg: "https://cdn1.ozone.ru/s3/multimedia-a/wc1200/6089736274.jpg",
         bookName: "Shto dalshe",
         bookRating: 4.4,
@@ -1606,7 +1606,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b62",
+        bookId: "3",
         bookImg: "https://cdn1.ozone.ru/s3/multimedia-c/wc1200/6248698236.jpg",
         bookName: "Mishlenie Budushevo",
         bookRating: 4.7,
@@ -1623,7 +1623,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b63",
+        bookId: "4",
         bookImg: "https://cdn1.ozone.ru/s3/multimedia-b/wc1200/6248692943.jpg",
         bookName: "Pazitivniy time management",
         bookRating: 4.9,
@@ -1678,7 +1678,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
       {
-        bookId: "b64",
+        bookId: "1",
         bookImg: "https://imgur.com/qmxuZi2.png",
         bookName: "Xilol",
         bookRating: 4.1,
@@ -1699,7 +1699,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b65",
+        bookId: "2",
         bookImg:
           "https://hilolnashr.uz/image/cache/catalog/Halol-harom_750-500_web-500x750.jpg",
         bookName: "Xalol ochiq oydin Xarom ochiq oydin",
@@ -1722,7 +1722,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b66",
+        bookId: "3",
         bookImg:
           "https://hilolnashr.uz/image/cache/catalog/001-Kitoblar/001_hilol_nashr/001_diniy/baxtiyor-oila-lotin-web-500x750.png",
         bookName: "Baxtiyor oila",
@@ -1743,7 +1743,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b67",
+        bookId: "4",
         bookImg:
           "https://hilolnashr.uz/image/cache/catalog/Din_nasixat_500-750-500x750.jpg",
         bookName:
@@ -1791,7 +1791,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
       {
-        bookId: "b68",
+        bookId: "5",
         bookImg:
           "https://hilolnashr.uz/image/cache/catalog/Hilol_Nashr_boshqa/ey-farzand-web-500x750.jpg",
         bookName: "Ey farzand",
@@ -1813,7 +1813,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b69",
+        bookId: "6",
         bookImg:
           "https://assets.asaxiy.uz/product/items/desktop/90dff152c5d140d9b424846b6efc2bdb2020102712203352028z5YW3HgCEn.jpg.webp",
         bookName: "TAVBA KITOBI",
@@ -1840,7 +1840,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b70",
+        bookId: "7",
         bookImg:
           "https://kitobxon.com/img_knigi/3102.jpg",
         bookName: "Qalblar kashfiyot",
@@ -1861,7 +1861,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b71",
+        bookId: "8",
         bookImg:
           "https://olcha.uz/image/340x340/products/S9jLh590TqpVNU7RZz0Hqx7RC1JwLg3ZzBdJrxTRHDkbNvnULtjTxC6Jjeyu.jpeg",
         bookName:
@@ -1909,7 +1909,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
       {
-        bookId: "b72",
+        bookId: "9",
         bookImg:
           "https://assets.asaxiy.uz/product/items/desktop/602d1305678a8d5fdb372271e980da6a2021092616434177567LtzPlZuLQW.jpg.webp",
         bookName: "Olim, odam va olam",
@@ -1930,7 +1930,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b73",
+        bookId: "10",
         bookImg:
           "https://imgur.com/RUdsbVE.png",
         bookName: "Elous sunan",
@@ -1953,7 +1953,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b74",
+        bookId: "11",
         bookImg:
           "https://imgur.com/0YhMuhg.png",
         bookName: "Ey komil inson",
@@ -1974,7 +1974,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b75",
+        bookId: "12",
         bookImg:
           "https://imgur.com/K5CkKCi.png",
         bookName:
@@ -2022,7 +2022,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
       {
-        bookId: "b76",
+        bookId: "13",
         bookImg:
           "https://imgur.com/J6bNZ2H.png",
         bookName: "Tijorat",
@@ -2043,7 +2043,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b77",
+        bookId: "14",
         bookImg:
           "https://imgur.com/h28NpbI.png",
         bookName: "Nafs tarbiyasi",
@@ -2066,7 +2066,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b78",
+        bookId: "15",
         bookImg:
           "https://imgur.com/fJ2h0CC.png",
         bookName: "Rasululloh Sollallohu Alayhi Vasallam suhbatdoshlari",
@@ -2087,7 +2087,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b79",
+        bookId: "16",
         bookImg:
           "https://imgur.com/70zfY1F.png",
         bookName:
@@ -2135,7 +2135,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
       {
-        bookId: "b80",
+        bookId: "17",
         bookImg:
           "https://imgur.com/dNEGnp9.png",
         bookName: "Tarixi Muhammadiy",
@@ -2177,7 +2177,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b81",
+        bookId: "19",
         bookImg:
           "https://imgur.com/ollx5ey.png",
         bookName: "Hikmat muminning yoqotkanidur",
@@ -2198,7 +2198,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b82",
+        bookId: "20",
         bookImg:
           "https://imgur.com/xvWYIYF.png",
         bookName:
@@ -2246,7 +2246,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
       {
-        bookId: "b83",
+        bookId: "21",
         bookImg:
           "https://imgur.com/zBfBUuu.png",
         bookName: "Maktuboti Rabboniy",
@@ -2267,7 +2267,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b84",
+        bookId: "22",
         bookImg:
           "https://imgur.com/xY27olM.png",
         bookName: "Avrodi Qur'oniy",
@@ -2288,7 +2288,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b85",
+        bookId: "23",
         bookImg:
           "https://imgur.com/OdG7Tb0.png",
         bookName: "Hanna",
@@ -2309,7 +2309,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b86",
+        bookId: "24",
         bookImg:
           "https://imgur.com/807ej59.png",
         bookName:
@@ -2357,7 +2357,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
       {
-        bookId: "b87",
+        bookId: "25",
         bookImg:
           "https://imgur.com/jp98CpY.png",
         bookName: "Ilohiy ishq",
@@ -2378,7 +2378,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b88",
+        bookId: "26",
         bookImg:
           "https://imgur.com/jwL1m9t.png",
         bookName: "Qazo nomozlar oyid masalalar",
@@ -2399,7 +2399,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b89",
+        bookId: "27",
         bookImg:
           "https://imgur.com/7uFxzB4.png",
         bookName: "Hazrati Oisha",
@@ -2420,7 +2420,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b90",
+        bookId: "28",
         bookImg:
           "https://imgur.com/CwFWJtX.png",
         bookName:
@@ -2468,7 +2468,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
       {
-        bookId: "b91",
+        bookId: "29",
         bookImg:
           "https://imgur.com/G0k2pDX.png",
         bookName: "Yuz haromdan bir halol yaxshi",
@@ -2489,7 +2489,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b92",
+        bookId: "30",
         bookImg:
           "https://imgur.com/1QOVmWL.png",
         bookName: "Sharaf",
@@ -2510,7 +2510,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b93",
+        bookId: "31",
         bookImg:
           "https://imgur.com/id1L5Pn.png",
         bookName: "Mo'minlarning onalari",
@@ -2531,7 +2531,7 @@ let books = [
         electron: "pdf, epub",
       },
       {
-        bookId: "b94",
+        bookId: "32",
         bookImg:
           "https://imgur.com/JzCrn6d.png",
         bookName:
@@ -2575,7 +2575,7 @@ let books = [
     location: "Москва, Российская империя",
     bookObj: [
       {
-        bookId: "b96",
+        bookId: "1",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/0e01938fc48a2cfb5f2217fbfb00722d2021060113263255378BqpjWn2fpQ.jpg.webp",
         bookName: "All Pushkin for children",
         bookRating: 0.1,
@@ -2594,7 +2594,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b97",
+        bookId: "2",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/9f61408e3afb633e50cdf1b20de6f4662021052016142340507slCvoPjjCc.jpg.webp",
         bookName: "Eugene Onegin",
         bookRating: 0.1,
@@ -2614,7 +2614,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b98",
+        bookId: "3",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/d9ff90f4000eacd3a6c9cb27f78994cf2022012410552470918VvoUBVbXKv.jpg.webp",
         bookName: "Eugene Onegin",
         bookRating: 5,
@@ -2634,7 +2634,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b99",
+        bookId: "4",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/5e15c2858d092.jpg.webp",
         bookName: "Eugene Onegin (lotin)",
         bookRating: 0.1,
@@ -2675,7 +2675,7 @@ let books = [
     location: "	Лион, Франция",
     bookObj: [
       {
-        bookId: "b100",
+        bookId: "5",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/aa97d584861474f4097cf13ccb5325da20220510221703730438djiW5Rrei.jpg.webp",
         bookName: "The Little Prince",
         bookRating: 0.1,
@@ -2696,7 +2696,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b101",
+        bookId: "6",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/3dd9424294b0292b6e89ea2bba2e11442022010515115666810z80kecbli9.jpg.webp",
         bookName: "The Little Prince",
         bookRating: 5,
@@ -2717,7 +2717,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b102",
+        bookId: "7",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/f8a7ae4cba91f264e7591e883065844120210412162204477261RqxQb0Pfg.jpg.webp",
         bookName: "The Little Prince",
         bookRating: 5,
@@ -2738,7 +2738,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b103",
+        bookId: "8",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/5e15c2858d092.jpg.webp",
         bookName: "Kichkina shahzoda",
         bookRating: 0.1,
@@ -2780,7 +2780,7 @@ let books = [
     location: "Сидней, Австралия",
     bookObj: [
       {
-        bookId: "b104",
+        bookId: "9",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/be1bc7997695495f756312886f5661102022042721444072504yCTRpe6uKr.jpg.webp",
         bookName: "Atom odatlar",
         bookRating: 5,
@@ -2800,7 +2800,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b105",
+        bookId: "10",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/6da37dd3139aa4d9aa55b8d237ec5d4a20210602165931445931XM3xFsyhG.jpg.webp",
         bookName: "Atomic Habits (A5)",
         bookRating: 5,
@@ -2821,7 +2821,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b106",
+        bookId: "11",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/db98dc0dbafde48e8f74c0de001d35e42022051319454159977vQljshj6i2.jpg.webp",
         bookName: "Atomic Habits",
         bookRating: 5,
@@ -2841,7 +2841,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b107",
+        bookId: "12",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/db98dc0dbafde48e8f74c0de001d35e42022051319454159977vQljshj6i2.jpg.webp",
         bookName: "Atomic Habits",
         bookRating: 4.1,
@@ -2863,8 +2863,6 @@ let books = [
       }
     ]
   },
-
-
   {
     id: "28",
     name: "Lion",
@@ -2885,7 +2883,7 @@ let books = [
     location: "Ясная Поляна, Крапивенский уезд, Тульская губерния, Российская империя",
     bookObj: [
       {
-        bookId: "b108",
+        bookId: "13",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/5e15c1a539b48.jpg.webp",
         bookName: "Uch ўlim",
         bookRating: 0.1,
@@ -2905,7 +2903,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b109",
+        bookId: "14",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/3def184ad8f4755ff269862ea77393dd20210524150554570718qZskOi3Ps.jpg.webp",
         bookName: "Uch ўlim",
         bookRating: 0.3,
@@ -2925,7 +2923,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b110",
+        bookId: "15",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/5e15c1e83fc3d.jpg.webp",
         bookName: "Ilohy Donishmand Lao-Tze hikmatlari",
         bookRating: 0.1,
@@ -2945,7 +2943,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b111",
+        bookId: "16",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/b11002a4638a6bb480e36147261b2d072020041517180547378nG8QMb8WpL.jpg.webp",
         bookName: "Bolalar uchun hikoyalar",
         bookRating: 0.1,
@@ -2986,7 +2984,7 @@ let books = [
     location: "Порт Хоксбери, Новая Шотландия, Канада",
     bookObj: [
       {
-        bookId: "b112",
+        bookId: "17",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/f7a230fa929494cfc804c26e5c27d4522020051513220358635bP9qf2H7GU.jpg.webp",
         bookName: "The Key to Superpowers!",
         bookRating: 0.2,
@@ -3006,7 +3004,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b113",
+        bookId: "18",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/72007983849f4fcb0ad565439834756b2022050413300213160eju7g7gaiT.jpg.webp",
         bookName: "200 hayot darcy",
         bookRating: 5,
@@ -3026,7 +3024,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b114",
+        bookId: "19",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/dabd8d2ce74e782c65a973ef76fd540b2021080717310387726zRC0DESWkt.jpg.webp",
         bookName: "Robin Sharma Super Hot",
         bookRating: 5,
@@ -3046,7 +3044,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b115",
+        bookId: "20",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/287ea2b7ce2a717ab78940b3966591ea20210308175933554239eVoKQMBUp.jpg.webp",
         bookName: "Eng sara asarlari",
         bookRating: 5,
@@ -3088,7 +3086,7 @@ let books = [
     location: "Москва, Российская империя",
     bookObj: [
       {
-        bookId: "b116",
+        bookId: "21",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/3ea2db50e62ceefceaf70a9d9a56a6f42022051020065814859SeSoXEKXCY.jpg.webp",
         bookName: "Kambagallar",
         bookRating: 5,
@@ -3107,7 +3105,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b117",
+        bookId: "22",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/4b4edc2630fe75800ddc29a7b4070add2021122817020475502VbpTTzsy6v.jpg.webp",
         bookName: "Iblislar (2-wire)",
         bookRating: 5,
@@ -3128,7 +3126,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b118",
+        bookId: "23",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/5e15bfec05b4a.jpg.webp",
         bookName: "Khurlangan va khakoratlanganlar",
         bookRating: 0.1,
@@ -3148,7 +3146,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b119",
+        bookId: "24",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/5e15c072c2d89.jpg.webp",
         bookName: "Zhinoyat va jazzo",
         bookRating: 3.1,
@@ -3190,7 +3188,7 @@ let books = [
     location: "Владивосток, РСФСР, СССР",
     bookObj: [
       {
-        bookId: "b120",
+        bookId: "25",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/b5b0db7f3a77ca4fcf9eca57aa7181ca2022051020310938375DfL9Vx8Naz.jpg.webp",
         bookName: "Dardingny sowing",
         bookRating: 3.1,
@@ -3209,7 +3207,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b121",
+        bookId: "26",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/88c210aec890e836f12da3e47528032b2021041118074893612O5JTNm16yR.jpg.webp",
         bookName: "Stressdan Emlanish",
         bookRating: 5,
@@ -3229,7 +3227,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b122",
+        bookId: "27",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/ca851e9f71b25d2d588b7e0d4de3d62720220506143017871464udSnlBWgr.jpg.webp",
         bookName: "Love your disease",
         bookRating: 5,
@@ -3249,7 +3247,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b123",
+        bookId: "28",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/0a348ede8ac3768875037baca5de6e2620220510200448267577GSN2bLhqg.jpg.webp",
         bookName: "Niyatning heaps",
         bookRating: 3.1,
@@ -3291,7 +3289,7 @@ let books = [
     location: "	Стамбул, Османская империя",
     bookObj: [
       {
-        bookId: "b124",
+        bookId: "29",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/3546ab441e56fa333f8b44b610d956912021091121524722020Wh7Mj8YeYk.jpg.webp",
         bookName: "Otash kechasi",
         bookRating: 5,
@@ -3310,7 +3308,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b125",
+        bookId: "30",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/88c210aec8https://assets.asaxiy.uz/product/items/desktop/15de21c670ae7c3f6f3f1f37029303c92021021015411481522plh3j3MqHj.jpg.webp",
         bookName: "Eng sara asarlari",
         bookRating: 5,
@@ -3330,7 +3328,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b126",
+        bookId: "31",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/ab363e8e6f600bea303f8a0a9f7867f92020021817051387150C1f9ghpC5g.jpg.webp",
         bookName: "Iztirob",
         bookRating: 5,
@@ -3350,7 +3348,7 @@ let books = [
         electron: "pdf, epub"
       },
       {
-        bookId: "b127",
+        bookId: "32",
         bookImg: "https://assets.asaxiy.uz/product/items/desktop/c7223489d2f8ab84f76e5d5d54769d6120200828154731738619ML1Yxa4WK.jpg.webp",
         bookName: "Muhabbat symphonysi",
         bookRating: 0.1,
@@ -3391,7 +3389,7 @@ let books = [
     location : "Illinois, United States",
     bookObj : [
       {
-        bookId: "b128",
+        bookId : "1",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/bd7db7397f7d83052f829816ecc7f00420220121123310819848iaLdiqnX9.jpg.webp",
         bookName : "Dandelion Wine",
         bookRating : 5,
@@ -3412,7 +3410,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-        bookId: "b129",
+        bookId : "2",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5a9d8bf5b7a4b35f3110dde8673bdda22022051022162188381pCLUVWWOWc.jpg.webp",
         bookName : "Farewell Summer",
         bookRating : 0,
@@ -3433,7 +3431,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b130",
+        bookId : "3",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/1f3202d820180a39f736f20fce790de82021100217521374425HC12z9cj5t.jpg.webp",
         bookName : "Dandelion Wine",
         bookRating : 5,
@@ -3454,7 +3452,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b131",
+        bookId : "4",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/662548dada72a36a0c52c675797272fe2022042616435663053Lxg3AqGOZZ.jpg.webp",
         bookName : "Farengeyt bo'yicha 451 daraja",
         bookRating : 5,
@@ -3496,7 +3494,7 @@ let books = [
     location : "New Hampshire, United States",
     bookObj : [
       {
-         bookId: "b132",
+        bookId : "5",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/0084ae4bc24c0795d1e6a4f58444d39b2022042720371385007LUUTHneFRs.jpg.webp",
         bookName : "Ibtido",
         bookRating : 4,
@@ -3518,7 +3516,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b133",
+        bookId : "6",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/680aef021cb2454116eb738550f81cb02020022015024962143ZW8TLxtWh6.jpg.webp",
         bookName : "Da Vinci Code",
         bookRating : 5,
@@ -3539,7 +3537,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b134",
+        bookId : "7",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/9edcc1391c208ba0b503fe9a225742512022031017552535635uyGcOPkAZE.jpg.webp",
         bookName : "Digital Fortress",
         bookRating : 5,
@@ -3560,7 +3558,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b135",
+        bookId : "8",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/53c6a98e1c9f8da6f2918b19701a33392020050901130987293LkIasTTzB7.jpg.webp",
         bookName : "Inferno",
         bookRating : 5,
@@ -3601,7 +3599,7 @@ let books = [
     location : "Остин, США",
     bookObj : [
       {
-         bookId: "b136",
+        bookId : "9",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/6e16656a6ee1de7232164767ccfa79202022042720485117146X2bgyDuYei.jpg.webp",
         bookName : "Beparvolikning nozik san’ati",
         bookRating : 5,
@@ -3624,7 +3622,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b137",
+        bookId : "10",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/698d51a19d8a121ce581499d7b7016682021022718405066509C1CXkjDhKC.jpg.webp",
         bookName : "The Subtle Art of Not Giving a F*ck",
         bookRating : 0,
@@ -3645,7 +3643,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b138",
+        bookId : "11",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15bd8105c2a.jpg.webp",
         bookName : "Everything Is Fucked",
         bookRating : 5,
@@ -3666,7 +3664,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b139",
+        bookId : "12",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/a4fd466fcbec6a26185a4fe62885b4b42020120811580885091h8Mv1UDVyE.jpg.webp",
         bookName : "Hammasi rasvo",
         bookRating : 5,
@@ -3710,7 +3708,7 @@ let books = [
     location : "Istanbul, Turkiya",
     bookObj : [
       {
-         bookId: "b140",
+        bookId : "13",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15c1ce30b51.jpg.webp",
         bookName : "Imomning maneken qizi",
         bookRating : 5,
@@ -3731,7 +3729,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b141",
+        bookId : "14",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/8dd48d6a2e2cad213179a3992c0be53c2021060416491314436zFM6ZKB5DC.jpg.webp",
         bookName : "Miryám",
         bookRating : 5,
@@ -3752,7 +3750,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b142",
+        bookId : "15",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/fb2e203234df6dee15934e448ee889712021122120093310159Ljkt6fzQov.jpg.webp",
         bookName : "Ishqqa yengilmayman",
         bookRating : 5,
@@ -3773,7 +3771,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b143",
+        bookId : "16",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/07042ac7d03d3b9911a00da43ce0079a2021100615291775507jRqVXHfC86.jpg.webp",
         bookName : "Mingboshining qizi",
         bookRating : 5,
@@ -3814,7 +3812,7 @@ let books = [
     location : "Kyiv, Ukraine",
     bookObj : [
       {
-         bookId: "b144",
+        bookId : "17",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5b112ff4b5bb1ff96595eadf48d07ce52020070415161428933kzrjaVcHgE.jpg.webp",
         bookName : "Ityurak",
         bookRating : 5,
@@ -3835,7 +3833,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b145",
+        bookId : "18",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15bfe53b0ac.jpg.webp",
         bookName : "Usta va Margarita",
         bookRating : 0,
@@ -3856,7 +3854,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b146",
+        bookId : "19",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/89d4402dc03d3b7318bbac10203034ab2022040121100654971aEm38HyUEV.jpg.webp",
         bookName : "Yosh vrach kundaligi",
         bookRating : 5,
@@ -3877,7 +3875,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b147",
+        bookId : "20",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15bf1b31655.jpg.webp",
         bookName : "Usta va Margarita",
         bookRating : 5,
@@ -3918,7 +3916,7 @@ let books = [
     location : "Edinburgh, United Kingdom",
     bookObj : [
       {
-         bookId: "b148",
+        bookId : "21",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/86a1793f65aeef4aeef4b479fc9b2bca2022050416353211659Le8cSbRMpT.jpg.webp",
         bookName : "Baskervillar iti",
         bookRating : 5,
@@ -3939,7 +3937,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b149",
+        bookId : "22",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15be25d83c2.jpg.webp",
         bookName : "Boskom vodiysining siri",
         bookRating : 0,
@@ -3960,7 +3958,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b150",
+        bookId : "23",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15c262944fb.jpg.webp",
         bookName : "Internatda sodir bo‘lgan voqea",
         bookRating : 0,
@@ -3981,7 +3979,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b151",
+        bookId : "24",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15be25a3d9a.jpg.webp",
         bookName : "Sherlok Xolms o‘lim to‘shagida",
         bookRating : 5,
@@ -4022,7 +4020,7 @@ let books = [
     location : "Istanbul, Turkey",
     bookObj : [
       {
-         bookId: "b152",
+        bookId : "25",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/044ffea3713f482873e2d5fe094620662020051316451661444gtAsiIJXus.jpg.webp",
         bookName : "Saodat asri qissalari",
         bookRating : 5,
@@ -4045,7 +4043,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b153",
+        bookId : "26",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/a226e450e214f350856e2980b6e55ac920220224212707842711PD2UOc7G6.jpg.webp",
         bookName : "Hazrati Abu Bakr",
         bookRating : 4.3,
@@ -4066,7 +4064,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b154",
+        bookId : "27",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/a87ff679a2f3e71d9181a67b7542122c2021051111123884567MSasAjM5Je.jpg.webp",
         bookName : "So‘nggi to‘fon",
         bookRating : 5,
@@ -4087,7 +4085,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b155",
+        bookId : "28",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/39dcaf7a053dc372fbc391d4e6b5d69320211207223220250207sboQ07Xjr.jpg.webp",
         bookName : "O'gay ona",
         bookRating : 5,
@@ -4128,7 +4126,7 @@ let books = [
     location : "Yate, United Kingdom",
     bookObj : [
       {
-         bookId: "b156",
+        bookId : "29",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/586f9b4035e5997f77635b13cc04984c2022050413390782248fkpwdXX3zG.jpg.webp",
         bookName : "Garri Potter va afsonaviy tosh",
         bookRating : 5,
@@ -4149,7 +4147,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b157",
+        bookId : "30",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15bf0e7d0ab.jpg.webp",
         bookName : "Garri Potter va maxfiy xona",
         bookRating : 5,
@@ -4170,7 +4168,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b158",
+        bookId : "31",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15c04c99683.jpg.webp",
         bookName : "Garri Potter va azkaban mahbusi",
         bookRating : 5,
@@ -4191,7 +4189,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b159",
+        bookId : "32",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15c167e6240.jpg.webp",
         bookName : "Garri Potter va olov kuboki",
         bookRating : 5,
@@ -4238,7 +4236,7 @@ let books = [
     location : "Toshkent, Uzbekistan",
     bookObj : [
       {
-         bookId: "b160",
+        bookId : "34",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/001_diniy/2022/muminning-aqiydasi-web-500x500h.jpg",
         bookName : "Mo'minning aqidasi",
         bookRating : 4.1,
@@ -4258,7 +4256,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b161",
+        bookId : "35",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/001_diniy/7-buyuk-web-500x500h.jpg",
         bookName : "Dunyoni tebratgan 7 buyuk",
         bookRating : 4.3,
@@ -4278,7 +4276,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b162",
+        bookId : "36",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/002_badiy/chingizxon-web-500x500h.jpg",
         bookName : "Chingizxon (Dunyoni tebratgan buyuklar)",
         bookRating : 4.4,
@@ -4299,7 +4297,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b163",
+        bookId : "37",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/hilol-nashr-kitoblari/uluglar-shunday-yashashgan-web-500x500h.jpg",
         bookName : "Uluglar shunday yashagan",
         bookRating : 3.9,
@@ -4347,7 +4345,7 @@ let books = [
     location : "Toshkent, Uzbekistan",
     bookObj : [
       {
-         bookId: "b164",
+        bookId : "38",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/001_diniy/2022/muminning-aqiydasi-web-500x500h.jpg",
         bookName : "Tavsiri ifron",
         bookRating : 4.1,
@@ -4367,7 +4365,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b165",
+        bookId : "39",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/diniy_marifiy/kuz_2018/hazrati-imom-majmuasi-web-500x500h.jpg",
         bookName : "«Hazrati Imom» majmuasi",
         bookRating : 6.3,
@@ -4387,7 +4385,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b166",
+        bookId : "40",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/diniy_marifiy/rasululloh-mujizalari-web-500x500h.jpg",
         bookName : "«Rasululloh sollallohu alayhi vasallam mo'jizalari»",
         bookRating : 4.4,
@@ -4408,7 +4406,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b167",
+        bookId : "41",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/hilol-nashr-kitoblari/uluglar-shunday-yashashgan-web-500x500h.jpg",
         bookName : "Oilada farzand tarbiyasi",
         bookRating : 3.9,
@@ -4451,7 +4449,7 @@ let books = [
     location : "Toshkent, Uzbekistan",
     bookObj : [
       {
-         bookId: "b168",
+        bookId : "42",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/001_diniy/2022/muminning-aqiydasi-web-500x500h.jpg",
         bookName : "Abu Abdulloh Muhammad ibn Ismoil al-Buxoriy: Sahihi Buxoriy: Al-jome' as-sahih",
         bookRating : 4.1,
@@ -4471,7 +4469,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b169",
+        bookId : "43",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/65f2a94c8c2d56d5b43a1a3d9d8111022022020915443352230Ti4rvoYN8V.png.webp",
         bookName : "«Hazrati Imom» majmuasi",
         bookRating : 6.3,
@@ -4495,7 +4493,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b170",
+        bookId : "44",
         bookImg : "https://images-na.ssl-images-amazon.com/images/I/61kCUH2sAIL._SX346_BO1,204,203,200_.jpg",
         bookName : "Al Arab Al Mufrad",
         bookRating : 4.4,
@@ -4515,7 +4513,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b171",
+        bookId : "45",
         bookImg : "https://images-na.ssl-images-amazon.com/images/I/61kCUH2sAIL._SX346_BO1,204,203,200_.jpg",
         bookName : "Al Arab Al Mufrad",
         bookRating : 4.4,
@@ -4537,7 +4535,7 @@ let books = [
     ]
   },
   {
-    id : "44",
+    id : "43",
     name : "Imomi",
     lastName : "Aʼzam",
     born : 699,
@@ -4558,7 +4556,7 @@ let books = [
     location : "Toshkent, Uzbekistan",
     bookObj : [
       {
-         bookId: "b172",
+        bookId : "46",
         bookImg : "https://upload.wikimedia.org/wikipedia/en/c/ca/Al-Fiqh_al-Akbar.jpeg",
         bookName : "Fiqh al-Akbar",
         bookRating : 3.1,
@@ -4578,7 +4576,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b173",
+        bookId : "47",
         bookImg : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Musnad_Imam_Ahmad_bin_Hanbal.jpg/450px-Musnad_Imam_Ahmad_bin_Hanbal.jpg",
         bookName : "Musnad Ahmad ibn Hanbal",
         bookRating : 4.3,
@@ -4598,7 +4596,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b174",
+        bookId : "48",
         bookImg : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397733084l/21942067.jpg",
         bookName : "Kitab Al-Athar of Imam Abu Hanifah",
         bookRating : 4.4,
@@ -4618,7 +4616,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b175",
+        bookId : "49",
         bookImg : "https://hilolnashr.uz/image/cache/catalog/Hilol_Nashr_boshqa/imomi-azam-web-500x750.jpg",
         bookName : "Imom A'zam",
         bookRating : 8.4,
@@ -4642,7 +4640,7 @@ let books = [
     ]
   },
   {
-    id : "45",
+    id : "44",
     name : "Hasanxon Yahyo",
     lastName : "Abdulmajid",
     born : 1981,
@@ -4665,7 +4663,7 @@ let books = [
     location : "Toshkent, Uzbekistan",
     bookObj : [
       {
-         bookId: "b176",
+        bookId : "50",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/001_hilol_nashr/001_diniy/qorilar-silsilasi-web-500x500h.jpg",
         bookName : "O'zbek qorilarining oltin silsilasi",
         bookRating : 4.7,
@@ -4685,7 +4683,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b177",
+        bookId : "51",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/hilol-nashr-kitoblari/mavli-web-500x500h.jpg",
         bookName : "Mavlid",
         bookRating : 4.9,
@@ -4709,7 +4707,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b178",
+        bookId : "52",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/001_diniy/2022/qiroatlar-tugrisida-web--500x500h.jpg",
         bookName : "Qur'oni Karim qiroatlari to'g'risida",
         bookRating : 3.4,
@@ -4729,7 +4727,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b179",
+        bookId : "53",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/001_hilol_nashr/001_diniy/quron-tartili-web-500x500h.jpg",
         bookName : "Qur'on tartili",
         bookRating : 8.4,
@@ -4751,7 +4749,7 @@ let books = [
     ]
   },
   {
-    id : "46",
+    id : "45",
     name : "Turan",
     lastName : "Dursun",
     born : 1934,
@@ -4773,7 +4771,7 @@ let books = [
     location : "Istanbul, Turkiya",
     bookObj : [
       {
-         bookId: "b180",
+        bookId : "54",
         bookImg : "https://images-na.ssl-images-amazon.com/images/I/41DzpT62XtL._SX345_BO1,204,203,200_.jpg",
         bookName : "Qullatayn",
         bookRating : 5.3,
@@ -4797,7 +4795,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b181",
+        bookId : "55",
         bookImg : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592087112i/54007426._UY630_SR1200,630_.jpg",
         bookName : "Islam and Nurculuk",
         bookRating : 3.2,
@@ -4817,7 +4815,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b182",
+        bookId : "56",
         bookImg : "https://ia601807.us.archive.org/BookReader/BookReaderImages.php?zip=/16/items/turan-dursun-din-bu-2-hz.-muhammed/Turan%20Dursun%20-%20Din%20Bu%201_jp2.zip&file=Turan%20Dursun%20-%20Din%20Bu%201_jp2/Turan%20Dursun%20-%20Din%20Bu%201_0000.jp2&id=turan-dursun-din-bu-2-hz.-muhammed&scale=4&rotate=0",
         bookName : "Din Bu",
         bookRating : 4.4,
@@ -4837,7 +4835,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b183",
+        bookId : "57",
         bookImg : "https://img1-kidega.mncdn.com/mnresize/200/307/UPLOAD/urunler/9789753430678.jpg",
         bookName : "Qurʼon ensiklopediyasi ",
         bookRating : 8.4,
@@ -4858,7 +4856,7 @@ let books = [
     ]
   },
   {
-    id : "47",
+    id : "46",
     name : "Abu Abdulloh Muhammad ibn Ismoil",
     lastName : "ibn Ibrohim al Buxoriy",
     born : 810,
@@ -4879,7 +4877,7 @@ let books = [
     location : "Toshkent, Uzbekistan",
     bookObj : [
       {
-         bookId: "b184",
+        bookId : "42",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/001_diniy/2022/muminning-aqiydasi-web-500x500h.jpg",
         bookName : "Abu Abdulloh Muhammad ibn Ismoil al-Buxoriy: Sahihi Buxoriy: Al-jome' as-sahih",
         bookRating : 4.1,
@@ -4899,7 +4897,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b185",
+        bookId : "43",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/65f2a94c8c2d56d5b43a1a3d9d8111022022020915443352230Ti4rvoYN8V.png.webp",
         bookName : "«Hazrati Imom» majmuasi",
         bookRating : 6.3,
@@ -4923,7 +4921,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b186",
+        bookId : "44",
         bookImg : "https://images-na.ssl-images-amazon.com/images/I/61kCUH2sAIL._SX346_BO1,204,203,200_.jpg",
         bookName : "Al Arab Al Mufrad",
         bookRating : 4.4,
@@ -4943,7 +4941,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b187",
+        bookId : "45",
         bookImg : "https://images-na.ssl-images-amazon.com/images/I/61kCUH2sAIL._SX346_BO1,204,203,200_.jpg",
         bookName : "Al Arab Al Mufrad",
         bookRating : 4.4,
@@ -4965,7 +4963,7 @@ let books = [
     ]
   },
   {
-    id : "48",
+    id : "47",
     name : "Imomi",
     lastName : "Aʼzam",
     born : 699,
@@ -4986,7 +4984,7 @@ let books = [
     location : "Toshkent, Uzbekistan",
     bookObj : [
       {
-         bookId: "b188",
+        bookId : "58",
         bookImg : "https://upload.wikimedia.org/wikipedia/en/c/ca/Al-Fiqh_al-Akbar.jpeg",
         bookName : "Fiqh al-Akbar",
         bookRating : 3.1,
@@ -5006,7 +5004,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b189",
+        bookId : "59",
         bookImg : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Musnad_Imam_Ahmad_bin_Hanbal.jpg/450px-Musnad_Imam_Ahmad_bin_Hanbal.jpg",
         bookName : "Musnad Ahmad ibn Hanbal",
         bookRating : 4.3,
@@ -5026,7 +5024,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b190",
+        bookId : "60",
         bookImg : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397733084l/21942067.jpg",
         bookName : "Kitab Al-Athar of Imam Abu Hanifah",
         bookRating : 4.4,
@@ -5046,7 +5044,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b191",
+        bookId : "61",
         bookImg : "https://hilolnashr.uz/image/cache/catalog/Hilol_Nashr_boshqa/imomi-azam-web-500x750.jpg",
         bookName : "Imom A'zam",
         bookRating : 8.4,
@@ -5070,7 +5068,7 @@ let books = [
     ]
   },
   {
-    id : "49",
+    id : "48",
     name : "Ahmad Muhammad",
     lastName : "Tursun",
     born : 1949,
@@ -5094,7 +5092,7 @@ let books = [
     location : "Toshkent, Uzbekistan",
     bookObj : [
       {
-         bookId: "b192",
+        bookId : "62",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/001_diniy/2022/muminning-aqiydasi-web-500x500h.jpg",
         bookName : "Mo'minning aqidasi",
         bookRating : 4.1,
@@ -5114,7 +5112,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b193",
+        bookId : "63",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/001_diniy/7-buyuk-web-500x500h.jpg",
         bookName : "Dunyoni tebratgan 7 buyuk",
         bookRating : 4.3,
@@ -5134,7 +5132,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b194",
+        bookId : "64",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/003_boshqalar/002_badiy/chingizxon-web-500x500h.jpg",
         bookName : "Chingizxon (Dunyoni tebratgan buyuklar)",
         bookRating : 4.4,
@@ -5155,7 +5153,7 @@ let books = [
         electron : "pdf, epub"
       },
       {
-         bookId: "b195",
+        bookId : "65",
         bookImg : "https://kitoblardunyosi.uz/image/cache/catalog/001-Kitoblar/hilol-nashr-kitoblari/uluglar-shunday-yashashgan-web-500x500h.jpg",
         bookName : "Uluglar shunday yashagan",
         bookRating : 3.9,
@@ -5178,7 +5176,7 @@ let books = [
   },
 
   {
-    id: 50,
+    id: 49,
     genre: "uzbek",
     img: "https://imgur.com/fWybOkT.jpg",
     name: "O'tkir",
@@ -5201,7 +5199,7 @@ let books = [
     location: 'Toshkent, Uzbekistan',
     bookObj: [
         {
-            bookId: "b196",
+            bookId: 1,
             bookImg: 'https://imgur.com/fKlnpaS.png',
             bookName: 'Dunyoning ishlari',
             bookRating : 4.9,
@@ -5223,7 +5221,7 @@ let books = [
 
         },
         {
-            bookId: 'b197',
+            bookId: 2,
             bookImg: 'https://imgur.com/YiZJ8ov.png',
             bookName: 'Ikki eshik orasi',
             bookRating : 4.3,
@@ -5244,7 +5242,7 @@ let books = [
 
         },
         {
-            bookId: 'b198',
+            bookId: 3,
             bookImg: 'https://imgur.com/JXstREO.png',
             bookName: 'Tushda kechgan umrlar',
             bookRating : 4.3,
@@ -5264,7 +5262,7 @@ let books = [
             electron : "pdf, epub"
         },
         {
-            bookId: 'b199',
+            bookId: 3,
             bookImg: 'https://imgur.com/KdQmEHm.png',
             bookName: 'Bahor qaytmaydi',
             bookRating : 4.3,
@@ -5286,7 +5284,7 @@ let books = [
     ]
 },
 {
-    id: 51,
+    id: 50,
     genre: "uzbek",
     img: "https://imgur.com/Lk5moun.jpg",
     name: "Said",
@@ -5308,7 +5306,7 @@ let books = [
     location: 'Toshkent, Uzbekistan',
     bookObj: [
         {
-            bookId: "b200",
+            bookId: 1,
             bookImg: 'https://imgur.com/1xHGiUn.jpg',
             bookName: 'Ufq',
             bookRating : 4.3,
@@ -5330,7 +5328,7 @@ let books = [
 
         },
         {
-            bookId: "b201",
+            bookId: 2,
             bookImg: 'https://imgur.com/nZYirJr.png',
             bookName: 'Jimjitlik',
             bookRating : 4.9,
@@ -5352,7 +5350,7 @@ let books = [
 
         },
         {
-            bookId: "b202",
+            bookId: 2,
             bookImg: 'https://kitobxon.com/img_knigi/s7433.jpg',
             bookName: "Yo'qotganlarim va topganlarim",
             bookRating : 4.9,
@@ -5374,7 +5372,7 @@ let books = [
 
         },
         {
-            bookId: "b203",
+            bookId: 2,
             bookImg: 'https://kitobxon.com/img_knigi/s5182.jpg',
             bookName: "Qorako'z majnun",
             bookRating : 4.9,
@@ -5400,7 +5398,7 @@ let books = [
     ]
 },
 {
-    id: 52,
+    id: 51,
     genre: "uzbek",
     img: "https://imgur.com/pmxR6iI.jpg",
     name: "Abdulla",
@@ -5422,7 +5420,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
         {
-            bookId: "b204",
+            bookId: 1,
             bookImg: 'https://imgur.com/sEFproO.jpg',
             bookName: 'Sarob',
             bookRating : 4.3,
@@ -5444,7 +5442,7 @@ let books = [
 
         },
         {
-            bookId: "b205",
+            bookId: 2,
             bookImg: 'https://imgur.com/3yDYazy.jpg',
             bookName: "O'tmishdan ertaklar",
             bookRating : 2.4,
@@ -5467,7 +5465,7 @@ let books = [
 
         },
         {
-            bookId: "b206",
+            bookId: 2,
             bookImg: 'https://imgur.com/XxVLDxB.jpg',
             bookName: "Sinchalak",
             bookRating : 2.4,
@@ -5488,7 +5486,7 @@ let books = [
 
         },
         {
-            bookId: "b207",
+            bookId: 4,
             bookImg: 'https://kitobxon.com/img_knigi/2082.jpg',
             bookName: "Muhabbat",
             bookRating : 2.4,
@@ -5514,7 +5512,7 @@ let books = [
 
 },
 {
-    id: 53,
+    id: 52,
     genre: "uzbek",
     img: "https://imgur.com/Lnmh2kj.jpg",
     name: "Oybek",
@@ -5539,7 +5537,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
         {
-            bookId: "b208",
+            bookId: 1,
             bookImg: 'https://kitobxon.com/img_knigi/1857.jpg',
             bookName: 'Navoiy romani',
             bookRating : 6.3,
@@ -5560,7 +5558,7 @@ let books = [
 
         },
         {
-            bookId: "b209",
+            bookId: 2,
             bookImg: 'https://imgur.com/ITZzM03.jpg',
             bookName: "Qutlug' qon",
             bookRating : 5.4,
@@ -5582,7 +5580,7 @@ let books = [
 
         },
         {
-            bookId: "b210",
+            bookId: 2,
             bookImg: 'https://imgur.com/2f1PRWl.jpg',
             bookName: "Quyosh qoraymas",
             bookRating : 5.4,
@@ -5604,7 +5602,7 @@ let books = [
 
         },
         {
-            bookId: "b211",
+            bookId: 2,
             bookImg: 'https://imgur.com/gUaUV6c.jpg',
             bookName: "Oltin vodiydan shabadalar",
             bookRating : 4.4,
@@ -5628,7 +5626,7 @@ let books = [
     ]
 },
 {
-    id: 54,
+    id: 53,
     genre: "uzbek",
     img: "https://milliycha.uz/wp-content/uploads/2021/11/ulmas-umarbekov.jpg",
     name: "O'lmas",
@@ -5651,7 +5649,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
         {
-            bookId: "b212",
+            bookId: 1,
             bookImg: 'https://imgur.com/eQlGyVX.jpg',
             bookName: "Odam bo'lish qiyin",
             bookRating : 3.3,
@@ -5673,7 +5671,7 @@ let books = [
 
         },
         {
-            bookId: "b213",
+            bookId: 2,
             bookImg: 'https://kitobxon.com/img_knigi/4581.jpg',
             bookName: "Fotima va Zuhra",
             bookRating : 5.4,
@@ -5698,7 +5696,7 @@ let books = [
 
         },
         {
-            bookId: "b214",
+            bookId: 3,
             bookImg: 'https://imgur.com/2hvysd4.jpg',
             bookName: "Sevgim-sevgilim",
             bookRating : 5.4,
@@ -5720,7 +5718,7 @@ let books = [
 
         },
         {
-            bookId: "b215",
+            bookId: 2,
             bookImg: 'https://kitobxon.com/img_knigi/3557.jpg',
             bookName: "Yoz yomg'iri",
             bookRating : 5.7,
@@ -5743,7 +5741,7 @@ let books = [
     ]
 },
 {
-    id: 55,
+    id: 54,
     genre: "uzbek",
     img: "https://imgur.com/tJ0zO8U.jpg",
     name: "Shuhrat",
@@ -5766,7 +5764,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
         {
-            bookId: "b216",
+            bookId: 1,
             bookImg: 'https://imgur.com/Uf9jf4d.jpg',
             bookName: "Shinnelli yillar",
             bookRating : 3.3,
@@ -5788,7 +5786,7 @@ let books = [
 
         },
         {
-            bookId: "b217",
+            bookId: 2,
             bookImg: 'https://imgur.com/d7NQv3O.jpg',
             bookName: "Oltin zanglamas",
             bookRating : 5.4,
@@ -5810,7 +5808,7 @@ let books = [
 
         },
         {
-            bookId: "b218",
+            bookId: 3,
             bookImg: 'https://imgur.com/OkqLE2E.jpg',
             bookName: "Jannat qidirganlar",
             bookRating : 5.4,
@@ -5834,7 +5832,7 @@ let books = [
     ]
 },
 {
-    id: 56,
+    id: 55,
     genre: "uzbek",
     img: "https://imgur.com/tJ0zO8U.jpg",
     name: "Tog'ay",
@@ -5857,7 +5855,7 @@ let books = [
     location: "Surxondaryo, Uzbekistan",
     bookObj: [
         {
-            bookId: "b218",
+            bookId: 1,
             bookImg: 'https://imgur.com/5P7nvu9.jpg',
             bookName: "Otamdan qolgan dalalar",
             bookRating : 5,
@@ -5879,7 +5877,7 @@ let books = [
 
         },
         {
-            bookId: "b219",
+            bookId: 2,
             bookImg: 'https://uz.wikipedia.org/wiki/Ot_kishnagan_oqshom#/media/Fayl:Ot_kishnagan_oqshom.jpg',
             bookName: "Ot kishnagan oqshom",
             bookRating : 5.4,
@@ -5903,7 +5901,7 @@ let books = [
 
         },
         {
-            bookId: "b220",
+            bookId: 3,
             bookImg: 'https://kitobxon.com/img_knigi/7740.jpg',
             bookName: "Bu dunyoda o'lib bo'lmaydi",
             bookRating : 5.4,
@@ -5925,7 +5923,7 @@ let books = [
 
         },
         {
-            bookId: "b221",
+            bookId: 4,
             bookImg: 'https://imgur.com/sdoBarL.jpg',
             bookName: "Oydinda yurgan odamlar",
             bookRating : 3,
@@ -5948,7 +5946,7 @@ let books = [
     ]
 },
 {
-    id: 57,
+    id: 56,
     genre: "uzbek",
     img: "https://arboblar.uz/upload/people/n/389ac7371fece8a9be69645de259de470528.jpg",
     name: "Mirkarim",
@@ -5972,7 +5970,7 @@ let books = [
     location: "Toshkent, Uzbekistan",
     bookObj: [
         {
-            bookId: "b222",
+            bookId: 1,
             bookImg: 'https://imgur.com/SMF85SD.jpg',
             bookName: "To'maris",
             bookRating : 6.1,
@@ -5994,7 +5992,7 @@ let books = [
 
         },
         {
-            bookId: "b223",
+            bookId: 2,
             bookImg: 'https://kitobxon.com/img_knigi/2703.jpg',
             bookName: "Aljabrning tug'ilishi",
             bookRating : 3.7,
@@ -6015,7 +6013,7 @@ let books = [
 
         },
         {
-            bookId: "b224",
+            bookId: 3,
             bookImg: 'https://imgur.com/d9au3aF.jpg',
             bookName: "Singan Setor",
             bookRating : 3,
@@ -6037,7 +6035,7 @@ let books = [
 
         },
         {
-            bookId: "b225",
+            bookId: 4,
             bookImg: 'https://kitobxon.com/img_knigi/s7686.jpg',
             bookName: "Zulmat ichra nur",
             bookRating : 6,
@@ -6061,7 +6059,7 @@ let books = [
 },
 
 {
-  id : 58,
+  id : "57",
   name : "Alisher",
   lastName : "Navoiy",
   born : 1441,
@@ -6081,7 +6079,7 @@ let books = [
   location : "Gerat, Afganistan",
   bookObj : [
     {
-       bookId: "b226",
+      bookId : "2",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15bc073a51a.jpg.webp",
       bookName : "Hamza",
       bookRating : 5,
@@ -6106,7 +6104,7 @@ let books = [
       electron : "pdf"
     },
     {
-       bookId: "b227",
+      bookId : "3",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15bff5cfe1f.jpg.webp",
       bookName : "Nasoyim Ul-Muhabbat",
       bookRating : 4.7,
@@ -6127,7 +6125,7 @@ let books = [
       electron : "pdf, epub"
     },
     {
-       bookId: "b228",
+      bookId : "4",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/fe441a2890346117084cb1c0475bbeb520201017152825576222985FLcOVv.jpg.webp",
       bookName : "So'z chamani",
       bookRating : 3.4,
@@ -6148,7 +6146,7 @@ let books = [
       electron : "pdf"
     },
     {
-       bookId: "b229",
+      bookId : "5",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/22f61c59d6efa44c12fc5514db0b38132020102215044358569pvingUhnDi.jpg.webp",
       bookName : "Muhokamatu-l-lug‘atayn",
       bookRating : 4.5,
@@ -6172,7 +6170,7 @@ let books = [
 },
 
 {
-  id : 59,
+  id : "58",
   name : "Xudoyberdi ",
   lastName : "To'xtaboyev",
   born : 1932,
@@ -6193,7 +6191,7 @@ let books = [
   location : "Farg'ona , Uzbekiston",
   bookObj : [
     {
-       bookId: "b230",
+      bookId : "7",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/d94e18a8adb4cc0f623f7a83b1ac75b42021090311544060290Dal1OKa7t7.jpg.webp",
       bookName : "Mungli ko'zlar",
       bookRating : 4.2,
@@ -6216,7 +6214,7 @@ let books = [
       electron : "pdf, ebook"
     },
     {
-       bookId: "b231",
+      bookId : "8",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/363763e5c3dc3a68b399058c34aecf2c2021092512041635287gxdtTx2hrN.jpg.webp",
       bookName : "Quyonlar saltanati",
       bookRating : 3.6,
@@ -6237,7 +6235,7 @@ let books = [
       electron : "pdf"
     },
     {
-       bookId: "b232",
+      bookId : "9",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/b96b6ef511a43a1c18545b2c0c305c1f20210417160539151267InK7Oi5Y1.jpg.webp",
       bookName : "Sariq devni minib",
       bookRating : 4.7,
@@ -6258,7 +6256,7 @@ let books = [
       electron : "pdf, ebook"
     },
     {
-       bookId: "b233",
+      bookId : "10",
       bookImg : "https://kitobxon.com/img_knigi/s7380.jpg",
       bookName : "Qo‘lga tushmas qasoskor",
       bookRating : 4.8,
@@ -6288,7 +6286,7 @@ let books = [
 },
 
 {
-  id : 60,
+  id : "59",
   name : "Muhammad",
   lastName : "Yusuf",
   born : 1954,
@@ -6308,7 +6306,7 @@ let books = [
   location : "Andijon, Uzbekiston",
   bookObj : [
     {
-       bookId: "b234",
+      bookId : "12",
       bookImg : "https://kitobxon.com/img_knigi/s3000.jpg",
       bookName : "Xalq bo‘l, elim",
       bookRating : 4.4,
@@ -6328,7 +6326,7 @@ let books = [
       electron : "pdf"
     },
     {
-       bookId: "b235",
+      bookId : "13",
       bookImg : "https://kitobxon.com/img_knigi/s5228.jpg",
       bookName : "Quyoshga qarab oqqan suv",
       bookRating : 4.6,
@@ -6349,7 +6347,7 @@ let books = [
       electron : "pdf, ebook"
     },
     {
-       bookId: "b236",
+      bookId : "14",
       bookImg : "https://kitobxon.com/img_knigi/s708.jpg",
       bookName : "Shoir sevgisi",
       bookRating : 3.6,
@@ -6370,7 +6368,7 @@ let books = [
       electron : "pdf"
     },
     {
-       bookId: "b237",
+      bookId : "15",
       bookImg : "https://kitobxon.com/img_knigi/s482.jpg",
       bookName : "Saylanma",
       bookRating : 3.5,
@@ -6400,7 +6398,7 @@ let books = [
 },
 
 {
-  id : 61,
+  id : "60",
   name : "Abdulla",
   lastName : "Oripov ",
   born : 1941,
@@ -6419,7 +6417,7 @@ let books = [
   location : "Qashqadaryo, Uzbekiston",
   bookObj : [
     {
-       bookId: "b238",
+      bookId : "17",
       bookImg : "https://kitobxon.com/img_knigi/s7343.jpg",
       bookName : "Zamondoshlari xotirasida",
       bookRating : 3.8,
@@ -6439,7 +6437,7 @@ let books = [
       electron : "pdf, ebook"
     },
     {
-       bookId: "b239",
+      bookId : "18",
       bookImg : "https://kitobxon.com/img_knigi/s1329.jpg",
       bookName : "Istiqlol manzaralari",
       bookRating : 4.9,
@@ -6470,7 +6468,7 @@ let books = [
       electron : "pdf"
     },
     {
-       bookId: "b240",
+      bookId : "19",
       bookImg : "https://kitobxon.com/img_knigi/s344.jpg",
       bookName : "Everest va ummon",
       bookRating : 3.3,
@@ -6496,7 +6494,7 @@ let books = [
       electron : "pdf"
     },
     {
-       bookId: "b241",
+      bookId : "20",
       bookImg : "https://kitobxon.com/img_knigi/s4491.jpg",
       bookName : "Umr manzillari",
       bookRating : 4.1,
@@ -6520,7 +6518,7 @@ let books = [
 },
 
 {
-  id : 62,
+  id : "61",
   name : "Odil",
   lastName : "Yoqubov",
   born : 1926,
@@ -6541,7 +6539,7 @@ let books = [
   location : "Toshkent, Uzbekiston",
   bookObj : [
     {
-       bookId: "b242",
+      bookId : "22",
       bookImg : "https://kitobxon.com/img_knigi/s6809.jpg",
       bookName : "Onaizor",
       bookRating : 4.6,
@@ -6564,7 +6562,7 @@ let books = [
     },
 
     {
-       bookId: "b243",
+      bookId : "23",
       bookImg : "https://kitobxon.com/img_knigi/s7020.jpg",
       bookName : "Diyonat",
       bookRating : 3.9,
@@ -6585,7 +6583,7 @@ let books = [
       electron : "pdf, ebook"
     },
     {
-       bookId: "b244",
+      bookId : "24",
       bookImg : "https://kitobxon.com/img_knigi/s5202.jpg",
       bookName : "Adolat manzili",
       bookRating : 3.9,
@@ -6605,7 +6603,7 @@ let books = [
       electron : "pdf"
     },
     {
-       bookId: "b245",
+      bookId : "25",
       bookImg : "https://kitobxon.com/img_knigi/s4134.jpg",
       bookName : "Ko‘hna dunyo",
       bookRating : 4.5,
@@ -6629,7 +6627,7 @@ let books = [
 },
 
 {
-  id : 63,
+  id : "62",
   name : "Abdulhamid ",
   lastName : "Choʻlpon",
   born : 1897,
@@ -6648,7 +6646,7 @@ let books = [
   location : "Toshkent, Uzbekiston",
   bookObj : [
     {
-       bookId: "b246",
+      bookId : "27",
       bookImg : "https://kitobxon.com/img_knigi/s6963.jpg",
       bookName : "Kecha va kunduz",
       bookRating : 5,
@@ -6669,7 +6667,7 @@ let books = [
       electron : "pdf, ebook"
     },
     {
-       bookId: "b247",
+      bookId : "28",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/d2cd33e9c0236a8c2d8bd3fa91ad3acf2022042615345389929X4Ktze57tL.jpg.webp",
       bookName : "Жадид адабиёти намоёндалари",
       bookRating : 4.1,
@@ -6690,7 +6688,7 @@ let books = [
       electron : "pdf"
     },
     {
-       bookId: "b248",
+      bookId : "29",
       bookImg : "https://kitobxon.com/img_knigi/s7206.jpg",
       bookName : "She’rlar",
       bookRating : 3.2,
@@ -6710,7 +6708,7 @@ let books = [
       electron : "pdf, ebook"
     },
     {
-       bookId: "b249",
+      bookId : "30",
       bookImg : "https://kitobxon.com/img_knigi/s3880.jpg",
       bookName : "Nazm",
       bookRating : 4.2,
@@ -6734,7 +6732,7 @@ let books = [
 },
 
 {
-  id : 64,
+  id : "63",
   name : "Tohir  ",
   lastName : "Malik",
   born : 1946,
@@ -6754,7 +6752,7 @@ let books = [
   location : "Toshkent, Uzbekiston",
   bookObj : [
     {
-      bookId: "b250",
+      bookId : "32",
       bookImg : "https://kitobxon.com/img_knigi/s6479.jpg",
       bookName : "So‘nggi o‘q",
       bookRating : 4.9,
@@ -6775,7 +6773,7 @@ let books = [
       electron : "pdf"
     },
     {
-      bookId: "b251",
+      bookId : "33",
       bookImg : "https://kitobxon.com/img_knigi/s6743.jpg",
       bookName : "Mehmon tuyg‘ular",
       bookRating : 4.4,
@@ -6796,7 +6794,7 @@ let books = [
       electron : "pdf, ebook"
     },
     {
-       bookId: "b252",
+      bookId : "34",
       bookImg : "https://kitobxon.com/img_knigi/s5188.jpg",
       bookName : "Tiriklik suvi",
       bookRating : 4.8,
@@ -6816,7 +6814,7 @@ let books = [
       electron : "pdf"
     },
     {
-       bookId: "b253",
+      bookId : "35",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/0ae3f79a30234b6c45a6f7d298ba13102021122119073186749rVxoEBLitv.jpg.webp",
       bookName : "Padarkush",
       bookRating : 4.7,
@@ -6840,7 +6838,7 @@ let books = [
 },
 
 {
-  id : 65,
+  id : "64",
   name : "Pirimqul",
   lastName : "Qodirov",
   born : 1928,
@@ -6862,7 +6860,7 @@ let books = [
   location : "Toshkent, Uzbekiston",
   bookObj : [
     {
-       bookId: "b254",
+      bookId : "37",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/3295c76acbf4caaed33c36b1b5fc2cb12021052111494312960hgKUgNsft8.jpg.webp",
       bookName : "Avlodlar dovoni",
       bookRating : 4.7,
@@ -6883,7 +6881,7 @@ let books = [
       electron : "pdf, ebook"
     },
     {
-      bookId: "b255",
+      bookId : "38",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/ab8aa05e782481f55fc1412a97e7ac342022012010284092605nvTaSqzqAZ.jpg.webp",
       bookName : "Yulduzli tunlar",
       bookRating : 3.6,
@@ -6904,7 +6902,7 @@ let books = [
       electron : "pdf"
     },
     {
-       bookId: "b256",
+      bookId : "39",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/299fb2142d7de959380f91c01c3a293c2021100211134531969GKHD0K1WlI.jpg.webp",
       bookName : "Qora ko'zlar",
       bookRating : 4.1,
@@ -6924,7 +6922,7 @@ let books = [
       electron : "pdf, ebook"
     },
     {
-       bookId: "b257",
+      bookId : "40",
       bookImg : "https://assets.asaxiy.uz/product/items/desktop/970af30e481057c48f87e101b61e69942021100211300948481lfU8tgACAO.jpg.webp",
       bookName : "Olmos kamar",
       bookRating : 5,
