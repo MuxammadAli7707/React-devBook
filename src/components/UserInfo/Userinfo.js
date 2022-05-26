@@ -1,6 +1,7 @@
 import React from 'react';
-import './Userinfo.scss'
-function Userinfo({inputValue, lastValue}) {
+import './Userinfo.scss';
+
+function Userinfo({name,lastName,phone,email,job}) {
   return (
     <div className="container">
        <div className='users'>
@@ -10,14 +11,14 @@ function Userinfo({inputValue, lastValue}) {
           <span className="users__star"><i className='bx bxs-star'></i></span>
         </div>
         <div className='users__info'>
-          <h2 className='users__title'>{lastValue} {inputValue}</h2>
+          <h2 className='users__title'>{name} {lastName}</h2>
           <div className='users__adresing d-flex'>
-            <span className='users__span'>Adresse: </span>
-            <p className='users__adres'>Tashkent</p>
+            <span className='users__span'>Phone: </span>
+            <p className='users__adres'>{phone}</p>
           </div>
           <div className='users__adresing d-flex'>
-            <span className='users__span'>Bio: </span>
-            <p className='users__adres'>Frontend Developer</p>
+            <span className='users__span'>Email: </span>
+            <p className='users__adres'>{email}</p>
           </div>
         </div>
       </div>

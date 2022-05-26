@@ -15,8 +15,14 @@ import Users from './components/Writers';
 
 function App() {
 
-  let [inputValue, setInputValue] = useState('MuxammadAli');
-  let [lastValue, setLastValue] = useState('Abdufattoxov');
+  let [name, setName] = useState('')
+  let [lastName, setLastName] = useState('')
+  let [phone, setPhone] = useState('')
+  let [email, setEmail] = useState('')
+  let [job, setJob] = useState('')
+
+  let [inputValue, setInputValue] = useState('');
+  let [lastValue, setLastValue] = useState('');
 
   return(
     <>
@@ -25,14 +31,42 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/nazm" element={<Hero />} />
         <Route path="/maqolalar" element={<Maqolalar />} />
-        <Route path="/forum" element={<SignUp />} />
+        <Route path="/forum" element={<SignUp
+          name={name}
+          setName={setName}
+          lastName={lastName}
+          setLastName={setLastName}
+          phone={phone}
+          setPhone={setPhone}
+          email={email}
+          setEmail={setEmail}
+          job={job}
+          setJob={setJob}
+        />} />
         <Route path="Users/:id" element= {<Users/>}/>
         <Route path="/signin" element= {<SignIn />}/>
         <Route path="/signup" element= {<SignUp />}/>
         <Route path="/nasr" element= {<Books />}/>
         <Route path="Books/:id" element= {<BooksInfo />}/>
-        <Route path="/users" element= {<Userinfo inputValue={inputValue} lastValue={lastValue} />}/>
-        <Route path="setting" element= {<Usersetting setInputValue={setInputValue} setLastValue={setLastValue} />}/>
+        <Route path="/users" element= {<Userinfo 
+          name={name}
+          lastName={lastName}
+          phone={phone}
+          email={email}
+          job={job}
+        />}/>
+        <Route path="setting" element= {<Usersetting 
+        name={name}
+        setName={setName}
+        lastName={lastName}
+        setLastName={setLastName}
+        phone={phone}
+        setPhone={setPhone}
+        email={email}
+        setEmail={setEmail}
+        job={job}
+        setJob={setJob}
+        />}/>
       </Routes>
     </>
   );
