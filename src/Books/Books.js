@@ -366,7 +366,7 @@ let books = [
     born : 1958,
     bornDate : 5,
     bornMonth : "Sen",
-    died : "",
+    died : "live",
     diedDate : "",
     diedMonth : "",
     books : 34,
@@ -379,7 +379,7 @@ let books = [
     bookObj : [
       {
         bookId : "b12",
-        bookImg : "",
+        bookImg : "https://m.media-amazon.com/images/P/B07ZHMQVPX.01._SCLZZZZZZZ_SX500_.jpg",
         bookName : "SOS! Savol ortidagi savol",
         bookRating : 4.1,
         bookGenre : "biznes",

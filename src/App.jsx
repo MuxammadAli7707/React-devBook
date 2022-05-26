@@ -21,12 +21,15 @@ function App() {
   let [email, setEmail] = useState('')
   let [job, setJob] = useState('')
 
-  let [inputValue, setInputValue] = useState('');
-  let [lastValue, setLastValue] = useState('');
+  let [wishlist, setWishlist] = useState([])
 
   return(
     <>
-      <Header />
+      <Header
+        wishlist={wishlist}
+        setWishlist={setWishlist}
+      />
+
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/nazm" element={<Hero />} />
@@ -47,7 +50,10 @@ function App() {
         <Route path="/signin" element= {<SignIn />}/>
         <Route path="/signup" element= {<SignUp />}/>
         <Route path="/nasr" element= {<Books />}/>
-        <Route path="Books/:id" element= {<BooksInfo />}/>
+        <Route path="Books/:id" element= {<BooksInfo
+          wishlist={wishlist}
+          setWishlist={setWishlist}
+        />}/>
         <Route path="/users" element= {<Userinfo 
           name={name}
           lastName={lastName}

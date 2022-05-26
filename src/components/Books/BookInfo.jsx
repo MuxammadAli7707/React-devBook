@@ -1,11 +1,22 @@
-import React from "react";
+import React,  { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-
 import './BookInfo.scss'
 import dataobj from "../../Books/Books"
 
-export default function BooksInfo() {
+export default function BooksInfo({wishlist, setWishlist}) {
   let location = useLocation() 
+
+  let [istrue, setIstrue] = useState(true)
+
+  let bookadd = (el) => {
+    if(istrue) {
+      setWishlist([...wishlist, el])
+      setIstrue(false)
+    }
+  }
+
+  console.log(wishlist)
+
   return(
     <section className="bookinfo">  
       <div className="container">
@@ -64,7 +75,7 @@ export default function BooksInfo() {
                       </li>
 
                       <li>
-                        <button className="bookinfo__btn">Javonga qo’shish</button>
+                        <button onClick={() => bookadd(book)} className="bookinfo__btn">Javonga qo’shish</button>
                       </li>
                     </ul>
                   </div>

@@ -14,7 +14,7 @@ export default function Users() {
       <div className="container">
         {
           obj.map((item, key) => {
-            if(item.id === location.pathname.split("/").at(-1)) {
+            if(+item.id === +location.pathname.split("/").at(-1)) {
               return(
                 <div key={key+98} className="writers__main d-flex justify-content-between">
                   <div className="writers__leftbox">
@@ -49,7 +49,7 @@ export default function Users() {
                       {
                         item.bookObj.map((book, keyd) => {
                           return(
-                            <Link key={keyd+888} to={`/Books/${book.bookId}`}>
+                            <Link className="writers__work-link" key={keyd+888} to={`/Books/${book.bookId}`}>
                             <li key={keyd+23} className="writers__work-item">
                             <div className="writers__work-imgbox">
                               <img className="writers__work-img" src={book.bookImg} alt="" />

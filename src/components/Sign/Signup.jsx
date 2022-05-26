@@ -11,7 +11,7 @@ export default function SignUp({
   setEmail,
   setJob}) {
 
-    let [isValid, setValid] = useState(true)
+    let [isValid, setValid] = useState(false)
 
 
     const addNameHandler = (e) =>{
@@ -84,9 +84,10 @@ export default function SignUp({
                 <label className="sign__label" htmlFor="fristname">
                   <input 
                     onChange={addNameHandler}
-                    id="fristname" 
-                    className="sign__input" 
+                    id="fristname"
+                    className={`sign__input ${isValid === true ? 'correct' : 'error'}`}
                     type="text" 
+                    required
                     placeholder="First Name"/>
                 </label>
 
@@ -94,8 +95,9 @@ export default function SignUp({
                   <input 
                     onChange={addLastNameHandler}
                     id="lastname" 
-                    className="sign__input" 
-                    type="text" 
+                    className={`sign__input ${isValid === true ? 'correct' : 'error'}`}
+                    type="text"
+                    required 
                     placeholder="Last name"/>
                 </label>
 
@@ -103,8 +105,9 @@ export default function SignUp({
                   <input 
                     onChange={addNumberHanlder}
                     id="upphone" 
-                    className="sign__input" 
-                    type="number" 
+                    className={`sign__input ${isValid === true ? 'correct' : 'error'}`}
+                    type="number"
+                    required 
                     placeholder="Phone" />
                 </label>
 
@@ -112,19 +115,21 @@ export default function SignUp({
                   <input 
                     onChange={addEmailHandler}
                     id="upmail" 
-                    className="sign__input" 
+                    className={`sign__input ${isValid === true ? 'correct' : 'error'}`}
                     type="email" 
+                    required
                     placeholder="Email" />
                 </label>
                 <label className="sign__label" htmlFor="uppass">
                   <input 
                     onChange={addJobHandler}
                     id="uppass" 
-                    className="sign__input" 
+                    className={`sign__input ${isValid === true ? 'correct' : 'error'}`}
                     type="password" 
+                    required
                     placeholder="Password"/>
                 </label>
-                <Link to="/users">
+                <Link to={`${isValid === true ? '/users' : '/signup'}`}>
                   <button className="sign__btn">Next step</button>
                 </Link>
               </form>

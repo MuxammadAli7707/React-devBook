@@ -120,6 +120,14 @@
   &__work-item {
     width: 165px;
   }
+  &__work-link {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: #fff;
+    }
+  }
 
   &__work-imgbox {
     width: 164px;

@@ -86,7 +86,7 @@
     font-size: 18px;
   }
   &__input:focus {
-    outline-color: #152540;
+    outline: none;
   }
 
   &__btn {
@@ -113,10 +113,6 @@
     border: 1px solid #152540;
     transition: all 0.5s ease;
   }
-
-  &__error {
-    border-color: red;
-  }
 }
 .bx-home {
   position: absolute;
@@ -125,3 +121,10 @@
   font-size: 30px;
 }
 
+.correct {
+  border: 2px solid blue;
+}
+
+.error {
+  border: 2px solid red;
+}
