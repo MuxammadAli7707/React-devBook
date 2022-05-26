@@ -58,7 +58,7 @@ function Header() {
                     <p className='mb-3 d-flex align-items-center'><i class='bx header__user__icon me-2 bxs-cog'></i>Settings</p>
                   </Link>
                   <li type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" className='header__modal__item'>
-                    <p className='mb-3 d-flex align-items-center'><i class='bx header__user__icon me-2 bxs-bookmark-star'></i>Wishlist</p>
+                    <p className='mb-3 d-flex align-items-center'><i class='bx header__user__icon me-2 bxs-bookmark-star'></i>Saved</p>
                   </li>
                 </ul>
               </div>
